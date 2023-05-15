@@ -1,0 +1,265 @@
+body {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    box-sizing: border-box
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
+    margin-bottom: 0px;
+}
+
+p{
+    margin-bottom: 0px;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+
+/* Header Section Start */
+.header-section{
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, .1);
+    padding: 10px 0px;
+}
+
+.header-section img{
+    max-width: 60px;
+    float: left;
+}
+.header-section span{
+    height: 100%;
+    float: left;
+    margin-left: 10px;
+    font-weight: 900;
+    font-family: 'Roboto', 'sans-serif';
+    color: #da924e;
+    letter-spacing: 1px;
+}
+
+.menu{}
+.menu ul{}
+.menu ul li{
+}
+.menu-a{
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 400;
+    color: #333333;
+}
+.nav-item{
+    margin-left: 30px;
+    transition: .3s;
+}
+#navbarNav{
+    justify-content: end;
+
+}
+.nav-item:first-child{
+    border-bottom: 2px solid #333333;
+}
+.nav-item:hover{
+    border-bottom: 2px solid #333333;
+}
+/* Header Section End */
+
+
+
+/* <!-- Ticket Section Start --> */
+.ticket-section{
+    padding-top: 5rem;
+}
+
+.ticket-title-2{
+    background-image: linear-gradient(to right, #da924e , #ffbc7e , #f1c49a) !important;
+}
+.ticket-title{
+    border-radius: 10px 10px 0px 0px;
+    background-image: linear-gradient(to right, #477365 , #60a18d , #76c8af);
+    padding: 15px 0px;
+}
+.ticket-title h4{
+    color: #fff;
+    margin-bottom: 0px;
+}
+
+.ticket-title p{
+    color: #fff;
+    margin-bottom: 0px;
+}
+
+.ticket-number-title{
+    color: #76c8af;
+}
+.ticket-number-title p{
+    color: #477365;
+    text-align: right;
+    line-height: 18px;
+}
+.ticket-number h3{
+    color: #477365;
+    margin-bottom: 0px;
+    line-height: 20px;
+}
+.ticket-number{
+    color: #477365;
+    line-height: 35px;
+}
+.bs{
+    background-color: #ebfff7;
+    border-radius: 0px 0px 10px 0px;
+}
+
+.tl-2{
+    background-color: #da924e !important;
+}
+.tlr{
+    line-height: 35px !important;
+}
+
+.nagad-img{
+    margin-top: 5rem;
+}
+
+.nagad-img img{
+    border-radius: 10px;
+}
+/* <!-- Ticket Section End --> */
+
+/* <!-- Features Section start --> */
+
+.features-section{
+    padding-top: 5rem;
+
+}
+
+.face{
+}
+.face img{
+    height: 15rem;
+}
+.face h4{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.face p{
+    width: 60%;
+}
+.face-sub{
+    width: 70% !important;
+}
+
+/* <!-- Instructions Section Start --> */
+
+.instract-section{
+    padding-top: 10rem;
+}
+
+.instract-img{}
+.instract-img img{}
+.Instructions h3{
+    color: #477365;
+}
+.Instructions{
+    margin-left: 5rem;
+}
+.Instructions ul{
+    list-style: none;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    width: 80%;
+}
+.Instructions ul li{
+    padding-bottom: 1rem;
+    color: #477365;
+    font-weight: 500;
+    display: flex;
+}
+/* .Instructions ul li::before{
+    content: "\f061";
+    font-family: 'Font Awesome 6 Pro';
+    font-weight: 900;
+    height: 85px;
+    width: 100px;
+    background-color: green;
+    color: #fff;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 25px;
+} */
+.Instructions ul li img{
+    width: 1.5rem;
+    height: 1.5rem; 
+    margin-top: 5px;
+}
+
+.Instructions ul li p{
+    margin-left: 1rem;
+}
+.Instructions ul li a{
+    color: #477365;
+    font-weight: 800;
+}
+/* <!-- Instructions Section End --> */
+
+
+.p-logo{
+    margin: auto;
+    padding: 20px 0px;
+}
+.p-logo li{
+    margin-left: 2rem;
+}
+.p-logo li img{
+    max-width: 5rem;
+}
+
+
+.p-logo li:first-child{
+    margin-left: 0px;
+}
+
+.issue{
+    border-bottom: 2px solid #477365;
+}
+
+
+/* Footer Section */
+
+.footer-section{
+    background-color: #f6f9ff;
+}
+
+.footer-logo-txt h3{
+   line-height: 50px;
+   color: #da924e;
+}
+
+.footer-logo-txt p{
+    color: #477365;
+}
+
+.footer-center a{
+    text-decoration: none;
+    color: #477365;
+    font-weight: 700;
+    line-height: 50px;
+    margin-left: 20%;
+}
+.footer-center a:hover{
+    text-decoration: underline;
+}
+
+.footer-right h4{
+    color: #436b5e;
+
+}
+.footer-right h6{
+    padding-top: 1rem;
+}
+
+
+/* ####### Login Page #### */
+
